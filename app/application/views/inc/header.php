@@ -11,39 +11,39 @@
 
 
 <!-- Styles -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-<link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/responsive.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/sea-green.css" title="sea-green" />
-<link rel="alternate stylesheet" type="text/css" href="css/brown.css" title="brown" />
-<link rel="alternate stylesheet" type="text/css" href="css/bright-red.css" title="bright-red" />
-<link rel="alternate stylesheet" type="text/css" href="css/yellow.css" title="yellow" />
-<link rel="alternate stylesheet" type="text/css" href="css/green.css" title="green" />
-<link rel="alternate stylesheet" type="text/css" href="css/hunter-green.css" title="hunter-green" />
-<link rel="alternate stylesheet" type="text/css" href="css/light-pink.css" title="light-pink" />
-<link rel="alternate stylesheet" type="text/css" href="css/orange.css" title="orange" />
-<link rel="alternate stylesheet" type="text/css" href="css/pink.css" title="pink" />
-<link rel="alternate stylesheet" type="text/css" href="css/red.css" title="red" />
-<link href="css/contact.css" rel="stylesheet" type="text/css" /> <!-- AJAX Contact Form Stylesheet -->
+<link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>assets/css/responsive.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="<?php echo base_url();?>assets/layerslider/css/layerslider.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/sea-green.css" title="sea-green" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/brown.css" title="brown" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bright-red.css" title="bright-red" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/yellow.css" title="yellow" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/green.css" title="green" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/hunter-green.css" title="hunter-green" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/light-pink.css" title="light-pink" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/orange.css" title="orange" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/pink.css" title="pink" />
+<link rel="alternate stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/red.css" title="red" />
+<link href="<?php echo base_url();?>assets/css/contact.css" rel="stylesheet" type="text/css" /> <!-- AJAX Contact Form Stylesheet -->
 
 <!--[if lt IE 9]>
 <link rel="stylesheet" type="text/css" href="css/ie.css" />
-<script type="text/javascript" language="javascript" src="js/html5shiv.js"></script>
+<script type="text/javascript" language="javascript" src="<?php echo base_url();?>assets/js/html5shiv.js"></script>
 <![endif]-->
 
 
 <!-- Scripts -->
 <script src="http://images.webinane.com/jquery.1.9.1.js" type="text/javascript"></script>
 <script src='http://images.webinane.com/bootstrap.js'></script>
-<script src="js/html5lightbox.js"></script>
+<script src="<?php echo base_url();?>assets/js/html5lightbox.js"></script>
 <script src="http://images.webinane.com/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery.jigowatt.js"></script><!-- AJAX Form Submit -->
-<script src='js/script.js'></script>		
-<script src='js/styleswitcher.js'></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.jigowatt.js"></script><!-- AJAX Form Submit -->
+<script src='<?php echo base_url();?>assets/js/script.js'></script>		
+<script src='<?php echo base_url();?>assets/js/styleswitcher.js'></script>
 <script defer src="http://images.webinane.com/jquery.flexslider.js"></script>
-<script defer src="js/jquery.mousewheel.js"></script>
+<script defer src="<?php echo base_url();?>assets/js/jquery.mousewheel.js"></script>
 	
 <script>
 $(window).load(function(){
@@ -129,10 +129,10 @@ $(document).ready(function(){
 </script>	
 
 <!-- Scripts For Layer Slider  -->
-<script src="layerslider/js/greensock.js" type="text/javascript"></script>
+<script src="<?php echo base_url();?>assets/layerslider/js/greensock.js" type="text/javascript"></script>
 <!-- LayerSlider script files -->
-<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="<?php echo base_url();?>assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="<?php echo base_url();?>assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 <script>
 $(document).ready(function(){
 jQuery("#layerslider").layerSlider({
