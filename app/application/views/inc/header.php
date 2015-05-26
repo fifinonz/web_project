@@ -180,7 +180,7 @@ jQuery("#layerslider").layerSlider({
 <header class="header2 sticky">
 	<div class="container">
 		<div class="logo">
-			<a href="#" title=""><img src="images/logo.png" alt="Logo" /><h1><i>L</i>ifeline</h1></a>
+			<a href="#" title=""><img src="<?php echo base_url();?>assets/images/logo.png" alt="Logo" /><h1><i>L</i>ifeline</h1></a>
 		</div><!-- Logo -->
 		<a class="header-btn" href="#" title="">DONATE NOW</a>
 
@@ -380,7 +380,7 @@ jQuery("#layerslider").layerSlider({
 
 <div class="responsive-header">
 	<div class="responsive-logo">
-		<a href="#" title=""><img style="width: 40px;" src="images/logo.png" alt="Logo" /><h1>Lifeline</h1></a>
+		<a href="#" title=""><img style="width: 40px;" src="<?php echo base_url();?>assets/images/logo.png" alt="Logo" /><h1>Lifeline</h1></a>
 	</div>
 	<span><i class="icon-align-justify"></i></span>
 	<ul>
